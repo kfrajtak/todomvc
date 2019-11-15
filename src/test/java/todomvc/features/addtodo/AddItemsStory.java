@@ -8,9 +8,11 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
+import todomvc.tasks.StartWith;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.*;
 
+// http://serenity-bdd.info/docs/articles/screenplay-tutorial.html
 // https://github.com/serenity-bdd/screenplay-pattern-todomvc/blob/master/src/test/java/net/serenitybdd/demos/todos/screenplay/features/record_todos/AddNewTodos.java
 @RunWith(SerenityRunner.class)
 public class AddItemsStory {
